@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="/monogram.png" />
+    <style>
+
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: #f6f6f6;
+}
+.left-empty {
+  width: 33%;
+}
+.right-empty {
+  width: 33%;
+}
+
+.introduction {
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+  padding: 16px;
+  background-color: #D7E2EA;
+  height: 425px;
+  width: 568px;
+}
+
+#logo {
+  width: 100px;
+  height: auto;
+}
+
+#heading-text {
+  margin: 0;
+color: #000;
+font-size: 72px;
+font-style: normal;
+font-weight: 500;
+line-height: 101.023%;
+}
+
+#subHeading-text {
+  margin: 0;
+  color: #000;
+font-size: 41px;
+font-weight: 300;
+}
+
+.second {
+  display: flex;
+  flex-direction: column;
+  background-color: #FFF;
+}
+
+#illustration {
+  width: 519px;
+  position: relative;
+  left: -2px;
+  top: -89px;
+  height: auto;
+}
+
+#body-text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 134.023%;
+  color: #000;
+  width: 422px;
+  margin: -100px 89px 16px;
+}
+
+.third {
+  background-color: #F35565;
+  height: 409px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 38px;
+}
+
+#red-heading {
+  margin: 64px 62px;
+  color: #FFF;
+  font-size: 41px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 126%;
+  letter-spacing: 4.305px;
+  width: 476px;
+}
+
+.primary {
+  height: 66px;
+  background-color: #fff;
+  border-radius: 16px;
+  border: none;
+  color: #000;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 126%;
+  letter-spacing: 1.68px;
+  cursor: pointer;
+  width: 272px;
+}
+
+.secondary {
+  background-color: #F35565;
+  height: 66px;
+  border-radius: 16px;
+  border: 2px solid #fff;
+  cursor: pointer;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 126%;
+  letter-spacing: 1.68px;
+  width: 167px;
+}
+
+.features-work {
+  display: flex;
+  flex-direction: column;
+  padding: 52px 28px;
+  gap: 32px;
+  background-color: #FFF;
+}
+.features {
+  display: flex;
+  gap: 28px;
+  align-items: center;
+  flex-grow: 0;
+  flex-shrink: 0;
+  padding: 0px 34px;
+}
+.features > img{
+  width: 63px;
+  height: 63px;
+}
+.body-bold {
+  font-size: 24px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 134.023%;
+  letter-spacing: -0.96px;
+  color: #000;
+}
+
+.images {
+  display: flex;
+  flex-direction:column ;
+  gap: 19px;
+}
+
+#image-row {
+  display: flex;
+  gap: 17px;
+}
+
+.footer {
+  height: 353px;
+  flex-shrink: 0;
+  background-color: #366C99;
+  padding: 42px 28px;
+  width: 544px;
+}
+
+#logo-white {
+  width: 109px;
+height: 29px;
+flex-shrink: 0;
+margin-bottom: 68px;
+}
+
+.footer-bottom {
+  color: #FFF;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left, .right {
+  display: flex;
+  flex-direction: column;
+}
+
+.left {
+  gap: 16px;
+  margin-left: 19px;
+}
+
+a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.subtext {
+  color: #D4D4D4;
+font-size: 18px;
+font-weight: 400;
+line-height: 134.023%;
+}
+
+.right > .bottom {
+  display: flex;
+  justify-content: flex-end;
+  gap: 23px;
+}
+
+.social-media {
+  width: 26px;
+  height: 26px;
+}
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rentalz</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-empty"></div>
+      <div id="app">
+        <section class="introduction">
+          <img id="logo" src="/image 5.png" alt="company logo">
+          <h1 id="heading-text">Welcome to Rentalz</h1>
+          <h3 id="subHeading-text">Your Perfect Home Awaits!</h3>
+        </section>
+        <section class="second image">
+          <img id="illustration" src="/Layer 3 1.png" alt="vector illustration">
+          <p id="body-text">Welcome to Rentalz, where we make finding your dream home a seamless experience! We will assist you in finding the perfect rental property that suits your needs and preferences.</p>
+        </section>
+        <section class="third red">
+          <h1 id="red-heading">Begin your exciting journey today</h1>
+          <div class="action-buttons">
+            <button class="primary">Talk to Our Experts now</button>
+            <button class="secondary">Our Website</button>
+          </div>
+        </section>
+        <section class="features-work">
+          <div class="features">
+            <img src="/Group 1.png" alt="">
+            <h3 class="body-bold">Diverse range of rental properties</h3>
+          </div>
+          <div class="features">
+            <img src="/personalized 1.png" alt="">
+            <h3 class="body-bold">Personalised Assistance</h3>
+          </div>
+          <div class="features">
+            <img src="/image 1.png" alt="">
+            <h3 class="body-bold">Seamless online experience</h3>
+          </div>
+          <div class="features">
+            <img src="/image 3.png" alt="">
+            <h3 class="body-bold">Transparent Process</h3>
+          </div>
+          <div class="features">
+            <img src="/image 2.png" alt="">
+            <h3 class="body-bold">Community amenities</h3>
+          </div>
+          <div class="features">
+            <img src="/image 4.png" alt="">
+            <h3 class="body-bold">Ongoing support and Maintenance</h3>
+          </div>
+          <div class="images">
+            <div id="image-row">
+              <img src="/house5.png" alt="">
+              <img src="/house2.png" alt="">
+              <img src="/house7.png" alt="">
+              <img src="/house4.png" alt="">
+            </div>
+            <div id="image-row">
+              <img src="/house1.png" alt="">
+              <img src="/house6.png" alt="">
+              <img src="/house3.png" alt="">
+              <img src="/house8.png" alt="">
+            </div>
+          </div>
+        </section>
+        <section class="footer">
+          <img id="logo-white" src="/logo-white.png" alt="logo white">
+          <div class="footer-bottom">
+            <div class="left">
+              <a href="">FAQ</a>
+              <a href="">Help Center</a>
+              <a href="">Community</a>
+              <a href="">Privacy</a>
+              <a href="">Unsubscribe</a>
+            </div>
+            <div class="right">
+              <div class="top"><p class="subtext">Rentalz Inc. Bangaluru</p></div>
+              <div class="bottom">
+                <a href=""><img class="social-media"  src="/Vector.png" alt=""></a>
+                <a href=""><img  class="social-media" src="/Vector-1.png" alt=""></a>
+                <a href=""><img  class="social-media" src="/Vector-2.png" alt=""></a>
+                <a href=""><img class="social-media"  src="/Vector-3.png" alt=""></a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="right-empty"></div>   
+    </div>
+  </body>
+</html>
